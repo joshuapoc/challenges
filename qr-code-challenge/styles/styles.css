@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --font-weight-400: 400;
+    --font-weight-700: 700;
+    --Outfit-font: "Outfit", sans-serif;
+    --font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--Light-gray);
+    font-family: var(--Outfit-font);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+/*  setting the height to 100% of the viewport height makes
+    to use body as a "main container" and to use flex on it
+    to align elementes both vertically andhorizontally
+*/
+}
+.qr-container{
+    background-color: var(--White);
+    padding: 16px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+}
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+p{
+    color: var(--Grayish-blue);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight-400);    
+}
+h2{
+    color: var(--Dark-blue);
+    font-weight: var(--font-weight-700);
+    padding-bottom: 20px;
+}
