@@ -1,0 +1,116 @@
+/*variable and font declaration*/
+@font-face {
+    font-family: "figtree-semiBold";
+    src: url(../assets/fonts/static/Figtree-SemiBold.ttf);
+}
+@font-face {
+    font-family: "figtree-extraBold";
+    src: url(../assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --font-figtree-semiBold: "figtree-semiBold";
+    --font-figtree-extraBold: "figtree-extraBold";
+}
+/*attribution container properties*/
+#attribution-container, a{
+    font-family: var(--font-figtree-semiBold);
+    color: var(--Black);
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--White);
+}
+#attribution-container{
+    padding: 6px;
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--Black)
+}
+/*basic properties*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--Yellow);
+    font-family: var(--font-figtree-semiBold);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*images/icons properties*/
+#quotation-icon{
+    height: 40px;
+}
+#card-logo{
+    width: 100%;
+    border-radius: 15px;
+}
+/*cointainers´ properties*/
+#card-container{
+    padding: 1.30em;
+    background-color: var(--White);
+    border-radius: 15px;
+    box-shadow: 10px 10px var(--Black);
+}
+#card-container, #attribution-container{
+    width: 400px;
+}
+#card-container h5,
+#card-container h2,
+#card-container p,
+#quotation-container{
+    margin: 15px 0;
+}
+#quotation-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1px;
+}
+/*text properties*/
+h4, h2, #quotation-container q{
+    font-family: var(--font-figtree-extraBold);
+}
+h4{
+    font-size: 1em;
+    padding: 6px 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: var(--Yellow);
+    display: inline-block;
+}
+h5{
+    font-size: 1em;
+}
+#card-container p{
+    color: var(--Grey);
+    margin-bottom: 24px;
+}
+#quotation-container q{
+    quotes: none;
+}
+/*activa states properties*/
+h2:hover{
+    cursor: pointer;
+    color: var(--Yellow);
+}
+#attribution-container a:hover{
+    color: var(--Yellow);
+    font-family: var(--font-figtree-extraBold);
+}
+@media only screen and (max-width: 400px) {
+    #card-container, #attribution-container{
+        width: 290px;
+    }
+}
+/*guidelines and rulers*/
+/* #card-container, #attribution-container, #quotation-container{
+    outline: auto;
+} */
