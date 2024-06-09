@@ -42,7 +42,7 @@ Users should be able to:
 
 ### Continued development
 
-- My initial intention was to set the attribution container at the utmost bottom while keeping the card container in the middle. I found the impossible since justify-self doesnt work on flex. if this sceneraio is possible with flex alone id like to know how to
+- My initial intention was to set the "attribution container" at the utmost bottom while keeping the "card container" in the middle. I found it the impossible since justify-self doesn't work on flex. if this scenario is possible with flex alone id like to know how to
 - Learning grid
 - learning media queries better
 
