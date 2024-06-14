@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://joshuapoc.github.io/challenges/blog-card-challenge)
+- Solution URL: [Add solution URL here](https://joshuapoc.github.io/challenges/blog-card-challenge-enhanced)
 
 ### Built with
 
@@ -28,6 +28,7 @@ Users should be able to:
 - Flexbox
 - grid
 - box shadows
+- simple media query for landscape orientation
 
 ### What I learned
 
@@ -62,13 +63,16 @@ CSS knowledge
 
 ### Continued development
 
-- keep working on grid and flex independentely
+- keepin working on grid and flex independentely
+- keeping working on max/min-width/height and max/min/fit-content
+- keeping working on selectors
+- keeping working on media queries
 
 ### Useful resources
 
 - [Shadows] explanation = (https://www.youtube.com/watch?v=qTEDcXJ-dzw)
 - [width,min/max-width] explanation = (https://youtu.be/YjtunZW7jxw?si=racyWtxdmJudh_pS)
-- [min-height/heigh] scroll problem explanation = (https://www.youtube.com/watch?v=dpuKVjX6BJ8&t=941s)
+- [min-height/heigh] scroll and min-height problem explanation = (https://www.youtube.com/watch?v=dpuKVjX6BJ8&t=941s)
 
 ## Author
 
