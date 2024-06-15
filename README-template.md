@@ -31,7 +31,7 @@ Common knowlede
 - 
 
 HTML knowledge
-- <html-element>
+- [html-element]
 
 CSS knowledge
 - [css-property]
