@@ -61,7 +61,7 @@ main, footer{
     box-shadow: 10px 10px var(--Black);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: flex-start;
     gap: 1em;
 }
@@ -98,11 +98,10 @@ main, footer{
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 10px;
+    gap: 0 1em;
 }
 #quotation-container > img{
     height: 36px;
-    width: auto;
 }
 #card-container, #attr-container{
     background-color: var(--White);
