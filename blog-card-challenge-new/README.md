@@ -32,14 +32,14 @@ Users should be able to:
 
 ### What I learned
 
-Common knowlede
+Common knowlegde
 - variable fonts are extensibly customizable
 
 HTML knowledge
-- <cite> is used for quoting works
-- <q> is used for quoting a few lines of another source. In css quotes: none removes the quotation marks
-- <blockquote> is used for quoting block or serveral lines of source
-- <svg> is used to create vector images
+- [cite] is used for quoting works
+- [q] is used for quoting a few lines of another source. In css quotes: none removes the quotation marks
+- [blockquote] is used for quoting block or serveral lines of source
+- [svg] is used to create vector images
 
 CSS knowledge
 - [@font-face] imports downloaded fonts locally. with font-family you can set a custom name for the font
@@ -63,10 +63,10 @@ CSS knowledge
 
 ### Continued development
 
-- keepin working on grid and flex independentely
-- keeping working on max/min-width/height and max/min/fit-content
-- keeping working on selectors
-- keeping working on media queries
+- keep working on grid and flex independentely
+- keep working on max/min-width/height and max/min/fit-content
+- keep working on selectors
+- keep working on media queries
 
 ### Useful resources
 
@@ -83,3 +83,4 @@ CSS knowledge
 - https://www.frontendmentor.io/profile/kodan96 - thanks for clearing out why min-height is preferred
 - https://www.youtube.com/watch?v=qTEDcXJ-dzw - great for learning the basics
 - https://www.youtube.com/@DaveGrayTeachesCode - great for clearing common problems
+- https://www.frontendmentor.io/profile/Alex-Archer-I - thanks for pointing out the usage of organized main, h, etc tags for better semantic. Also thanks for explaining flex
