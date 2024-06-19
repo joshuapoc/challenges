@@ -1,0 +1,48 @@
+//I use JS for changing the appearance of some elements whilst hovering on another
+
+let attr_container=document.querySelector(".attr-container"); //querySelector only returns the first element. Class in this case
+let attr_links=document.getElementsByClassName("attr-links"); //querySelectorAll (class in this case) could achive the same but it wouldnt update should there be more elements added in the future0
+let attr_paragraphs=document.querySelectorAll(".attr-para"); //like in this case
+
+/* the MAIN loop activates, passing through each link in the container.
+Inside the MAIN loop the links will also have a mouseout event and activate a normal function (for practise) */
+for(i=0;i<attr_links.length;i++){
+
+//the link element in position "i" will have a mouseover event and activate an arrow function
+    attr_links[i].addEventListener("mouseover",()=>{
+
+//the attr-container will change its background colour using css variable. The property is being transitioned
+        attr_container.style.backgroundColor="var(--green)";
+        attr_container.style.transition="background-colour .3s ease";
+
+//a new loop activates, passing through every paragraph in the container
+        for(j=0;j<attr_paragraphs.length;j++){
+
+//the paragraph element in position "j" will change its colour. The property is transitioned
+            attr_paragraphs[j].style.color="var(--dark-grey)";
+            attr_paragraphs[j].style.transition="color .3s ease";
+
+//the link element in position "j" will change its font-weight and font-size. Both properties being transitioned
+            attr_links[j].style.fontWeight="var(--weight-700)";
+            attr_links[j].style.fontSize="1.1rem";
+            attr_links[j].style.transition="font-size .3s ease, font-weight .3s ease";
+        }
+    });
+/* the link element in position "i" will have a mouseout event with a normal function (for practise sake)
+Also transtitions are already setInterval, they dont need to be reseted */
+    attr_links[i].addEventListener("mouseout",function(){
+        
+//the container will change its background color back to what it was
+        attr_container.style.backgroundColor="";
+
+/* i use a "for of" loop in this case to reset the remaining properties (for practise sake), however
+since theres no "iterable" var, i had to use 2 loops. There would be less code with the normal "for" loop. */
+        for(var attr_paragraph of attr_paragraphs){
+            attr_paragraph.style.color="";
+            for(var attr_link of attr_links){
+                attr_link.style.fontWeight="";
+                attr_link.style.fontSize="";
+            }
+        }
+    });
+}
