@@ -10,107 +10,126 @@
 :root{
     --Yellow: hsl(47, 88%, 63%);
     --White: hsl(0, 0%, 100%);
+    --white-optional: hsl(0, 14%, 95%);
     --Grey: hsl(0, 0%, 50%);
     --Black: hsl(0, 0%, 7%);
     --font-figtree-semiBold: "figtree-semiBold";
     --font-figtree-extraBold: "figtree-extraBold";
 }
-/*attribution container properties*/
-#attribution-container, a{
-    font-family: var(--font-figtree-semiBold);
-    color: var(--Black);
-    text-align: center;
-    text-decoration: none;
-    background-color: var(--White);
-}
-#attribution-container{
-    padding: 6px;
-    border-radius: 10px;
-    box-shadow: 8px 8px var(--Black)
-}
-/*basic properties*/
+/* resets */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    min-height: 100vh;
-    background-color: var(--Yellow);
-    font-family: var(--font-figtree-semiBold);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-}
-/*images/icons properties*/
-#quotation-icon{
-    height: 40px;
-}
-#card-logo{
-    width: 100%;
-    border-radius: 15px;
-}
-/*cointainers´ properties*/
-#card-container{
-    padding: 1.30em;
-    background-color: var(--White);
-    border-radius: 15px;
-    box-shadow: 10px 10px var(--Black);
-}
-#card-container, #attribution-container{
-    width: 400px;
-}
-#card-container h5,
-#card-container h2,
-#card-container p,
-#quotation-container{
-    margin: 15px 0;
-}
-#quotation-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 1px;
-}
-/*text properties*/
-h4, h2, #quotation-container q{
-    font-family: var(--font-figtree-extraBold);
-}
-h4{
-    font-size: 1em;
-    padding: 6px 12px;
-    margin-top: 15px;
-    border-radius: 5px;
-    background-color: var(--Yellow);
-    display: inline-block;
-}
-h5{
-    font-size: 1em;
-}
-#card-container p{
-    color: var(--Grey);
-    margin-bottom: 24px;
-}
-#quotation-container q{
+q, blockquote, cite{
     quotes: none;
 }
-/*activa states properties*/
-h2:hover{
+a{
+    text-decoration: none;
+    color: var(--Black);
+}
+/*layout*/
+body{
+    min-height: 100vh;
+    font-family: var(--font-figtree-semiBold);
+    color: var(--Black);
+    background-color: var(--Yellow);
+    display: grid;
+    grid-template-areas: 
+    "main"
+    "footer";
+    grid-template-rows: auto 10%;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+main, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*card container*/
+#card-container{
+    max-width: 380px;
+    padding: 20px;
+    margin: 0 1.5em;
+    border-radius: 20px;
+    box-shadow: 10px 10px var(--Black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+#card-container:hover{
+    box-shadow: 15px 15px var(--Black);
+}
+#card-container h1:hover{
     cursor: pointer;
     color: var(--Yellow);
 }
-#attribution-container a:hover{
-    color: var(--Yellow);
+#card-container > img{
+    width: 100%;
+    border-radius: 15px;
+}
+#card-container h1{
+    font-size: 1.5rem;
+}
+#card-container p:first-of-type{
+    padding: 6px 11px;
+    border-radius: 5px;
+    background-color: var(--Yellow);
+}
+#card-container p + p{
+    font-size: .91rem;
+}
+#card-container :is(h1, p:first-of-type, q), #attr-container{
     font-family: var(--font-figtree-extraBold);
 }
-@media only screen and (max-width: 400px) {
-    #card-container, #attribution-container{
-        width: 290px;
+#card-container p:last-of-type{
+    color: var(--Grey);
+}
+#quotation-container{
+    quotes: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0 1em;
+}
+#quotation-container > img{
+    height: 36px;
+}
+#card-container, #attr-container{
+    background-color: var(--White);
+}
+/*attribution container*/
+#attr-container{
+    align-self: center;
+    max-width: 340px;
+    font-family: var(--font-figtree-semiBold);
+    text-align: center;
+    padding: 3px;
+    margin: 0 1.5em;
+    border-radius: 10px;
+    box-shadow: 8px 5px var(--Black);
+}
+#attr-container *{
+    display: inline;
+}
+#attr-container a:hover{
+    font-family: var(--font-figtree-extraBold);
+    color: var(--Yellow);
+}
+#attr-container:hover{
+    box-shadow: 10px 8px var(--Black);
+}
+/*media queries*/
+@media only screen and (orientation:landscape) {
+    #card-container, #attr-container{
+        margin: 3% 0;
     }
 }
-/*guidelines and rulers*/
-/* #card-container, #attribution-container, #quotation-container{
-    outline: auto;
-} */
