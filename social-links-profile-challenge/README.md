@@ -74,3 +74,4 @@ JavaScript knowledge
 ## Acknowledgments
 
 - https://stackoverflow.com/questions/14938428/why-would-max-width-not-work-on-this - explains why max-width doesnt work sometimes with either flex or grid
+- https://stackoverflow.com/questions/30352431/css-transition-not-working-with-underline - explains why transitions dont initially work on text-decoration properties
