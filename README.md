@@ -1,0 +1,1 @@
+## This is the first version of the blog card challenge. It was made with flexbox only and several things were left to fix. Theres an enchanced version in the main branch thence why merging this branch will create conflicts. This branch should only be accessed for practise 
