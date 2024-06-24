@@ -44,7 +44,8 @@ HTML knowledge
 
 CSS knowledge
 - [max-width] max-width wont work with flex/grid alone since there might be properties setting the element to either a specific stretch or position. for it to work width: 100%; must be added and then max-width: value_px/%/em, otherwise width: 100% is not needed 
-- [transitions] instead of declearing several transitions instructions for each property, they can be in one declaration separated by ","
+- [transitions] instead of declearing several transitions instructions for each property, they can be in one declaration separated by ",". In order for transitions to work they start at a point A and then are animated to a point B by either pseudo selectors, scripts
+transitions on text-decoration usually dont work cause the point A is "none" as though it werent specified. The solution to this can be setting the initial transition to transparent (it might be implemented on a css reset) 
 - [z-index] works for layering elements. It works by setting a hierarchy amongst elements. The element with the biggest number will be the one portrayed and layered first or on "top"
 
 JavaScript knowledge
