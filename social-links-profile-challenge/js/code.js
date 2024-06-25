@@ -1,6 +1,6 @@
-let attr_container=document.querySelector(".attr-container"); 
-let attr_links=document.getElementsByClassName("attr-links"); 
-let attr_paragraphs=document.querySelectorAll(".attr-para");
+const attr_container=document.querySelector(".attr-container"); 
+const attr_links=document.getElementsByClassName("attr-links"); 
+const attr_paragraphs=document.querySelectorAll(".attr-para");
 for(i=0;i<attr_links.length;i++){
     attr_links[i].addEventListener("mouseover",()=>{
         attr_container.style.backgroundColor="var(--green)";
