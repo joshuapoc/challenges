@@ -19,7 +19,6 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Social links challenge](https://joshuapoc.github.io/challenges/social-links-profile-challenge)
-- I added a link for this challenge´s JavaScript file with commented guide here: (https://github.com/joshuapoc/challenges/tree/main/social-links-profile-challenge/js/commented-js-code.txt)
 
 ### Built with
 
