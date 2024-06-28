@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Challenge solution](https://joshuapoc.github.io/challenges/blog-card-challenge-new)
+- Solution URL: [Challenge solution](https://joshuapoc.github.io/challenges/blog-card-challenge)
 
 ### Built with
 
