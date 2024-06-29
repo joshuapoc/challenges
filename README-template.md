@@ -1,6 +1,5 @@
-## Table of contents
+# Table of contents
 
-  - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
@@ -11,38 +10,55 @@
   - [Acknowledgments](#acknowledgments)
 
 
-### The challenge
+## The challenge
+This is the recipe challenge from frontend mentor
 
-
-### Links
+## Links
 
 - Solution URL: [Add solution URL here](https://joshuapoc.github.io/challenges)
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - grid
 
-### What I learned
+## What I learned
 
-Common knowlede
+Common knowledge
 - 
 
-HTML knowledge
-- [html-element]
+### HTML knowledge
+- **html-element**:
+- *code snippets*: 
+```
+<p>some code...<p/>
+```
 
-CSS knowledge
-- [css-property]
+### CSS knowledge
+- **css-property**:
+- *code snippets*: 
+```
+.p {
+  color: cyan;
+}
+```
 
-### Continued development
+### JavaScript knowledge
+- **css-property**:
+- *code snippets*: 
+```
+console.log("some code");
+```
 
-- keep working on grid and flex independentely
-
-### Useful resources
+## Continued development
 
 - 
+
+## Useful resources
+
+- [link](url): *explanation*
 
 ## Author
 
@@ -51,4 +67,4 @@ CSS knowledge
 
 ## Acknowledgments
 
-- 
+- [acknowledgment_link](url): *explanation*
