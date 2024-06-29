@@ -27,34 +27,34 @@ This is the recipe challenge from frontend mentor
 ## What I learned
 
 Common knowledge
-- 
+1. **terminology:**
 
 ### HTML knowledge
-- **html-element**:
+1. **html concept:**
 - *code snippets*: 
-```
-<p>some code...<p/>
+```html
+<p>some code...</p>
 ```
 
 ### CSS knowledge
-- **css-property**:
+1. **css concept:**
 - *code snippets*: 
-```
+```css
 .p {
   color: cyan;
 }
 ```
 
 ### JavaScript knowledge
-- **css-property**:
+1. **JS concept:**
 - *code snippets*: 
-```
+```js
 console.log("some code");
 ```
 
 ## Continued development
 
-- 
+1. **concept:**
 
 ## Useful resources
 
