@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:recipe-page-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\js\\code.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:recipe-page-main\\js\\code.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:recipe-page-main\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 197,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\css\\styles.css",
+              "RelativeDocumentMoniker": "recipe-page-main\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\css\\styles.css",
+              "RelativeToolTip": "recipe-page-main\\css\\styles.css",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-23T20:38:10.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "code.js",
+              "DocumentMoniker": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\js\\code.js",
+              "RelativeDocumentMoniker": "recipe-page-main\\js\\code.js",
+              "ToolTip": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\js\\code.js",
+              "RelativeToolTip": "recipe-page-main\\js\\code.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-23T20:38:00.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\index.html",
+              "RelativeDocumentMoniker": "recipe-page-main\\index.html",
+              "ToolTip": "C:\\Users\\Joshuapoc\\Desktop\\Web\\xampp\\htdocs\\Github\\challenges\\recipe-page-main\\index.html",
+              "RelativeToolTip": "recipe-page-main\\index.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-23T20:37:00.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

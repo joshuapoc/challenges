@@ -15,6 +15,3 @@ for(i=0;i<attr_links.length;i++){
         }
     });
 }
-
-
-
